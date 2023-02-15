@@ -1,0 +1,16 @@
+{
+    "enabled":true,
+    "type":"piece",
+    "prefabName":"piece_chest_rockshed_bal", 
+    "inGameName":"Visual Ore Basket",
+    "description":"Shiny",
+    "recipe":{
+        "enabled": true,
+        "craftingStation":"piece_workbench",
+        "minStationLevel": "1",
+        "res1": "Stone:1:0:true",
+        "res2": "",
+        "res3": "",
+        "res4": ""
+    }  
+}

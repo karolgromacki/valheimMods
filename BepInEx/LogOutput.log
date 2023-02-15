@@ -1,0 +1,3400 @@
+[Message:   BepInEx] BepInEx 5.4.19.0 - valheim (07.01.2023 11:15:38)
+[Info   :   BepInEx] Running under Unity v2020.3.33.9525882
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.19.0]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 31 plugins to load
+[Info   :   BepInEx] Loading [PlantEverything 1.13.0]
+[Info   :   BepInEx] Loading [Character Edit 0.5.1]
+[Info   :   BepInEx] Loading [Hoe Radius 0.1.2]
+[Info   :   BepInEx] Loading [Instant Monster Drop 0.4.0]
+[Info   :   BepInEx] Loading [Elden Ring Stamina 1.0.0]
+[Info   :   BepInEx] Loading [CraftyCarts 3.0.8]
+[Info   : Unity Log] 02/14/2023 14:27:19: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:19: Loaded localization CSV:localization_extra language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:20: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:20: Loaded localization CSV:localization_extra language:English
+
+[Info   :   BepInEx] Loading [BalrondContainers 1.0.6]
+[Info   : Unity Log] Configs Json Files Found: 7
+[Info   : Unity Log] Container JsonFiles Loaded: 7
+[Info   :   BepInEx] Loading [kgladder 0.2.0]
+[Info   :   BepInEx] Loading [SNEAKer 1.0.6]
+[Info   :   BepInEx] Loading [Floors Are Roofs 2.0]
+[Info   : Unity Log] [floorsareroofs]: Initializing using config settings: PrefabsToChange:[wood_floor,wood_floor_1x1], Hammers:[Hammer], RemoveRainDamage:[True]
+[Info   :   BepInEx] Loading [FloatingItems 1.0.0]
+[Info   :   BepInEx] Loading [Jotunn 2.10.4]
+[Info   :    Jotunn] Initializing LocalizationManager
+[Info   :    Jotunn] Initializing CommandManager
+[Info   :    Jotunn] Initializing InputManager
+[Info   :    Jotunn] Initializing SkillManager
+[Info   :    Jotunn] Initializing PrefabManager
+[Info   :    Jotunn] Initializing ItemManager
+[Info   :    Jotunn] Initializing PieceManager
+[Info   :    Jotunn] Initializing CreatureManager
+[Info   :    Jotunn] Initializing ZoneManager
+[Info   :    Jotunn] Initializing MockManager
+[Info   :    Jotunn] Initializing KitbashManager
+[Info   :    Jotunn] Initializing GUIManager
+[Info   :    Jotunn] Initializing KeyHintManager
+[Info   :    Jotunn] Initializing NetworkManager
+[Info   :    Jotunn] Initializing SynchronizationManager
+[Info   :    Jotunn] Initializing RenderManager
+[Info   :    Jotunn] Initializing MinimapManager
+[Info   :    Jotunn] Initializing UndoManager
+[Info   :    Jotunn] Jötunn v2.10.4 loaded successfully
+[Info   :   BepInEx] Loading [ModSettings 0.0.1]
+[Info   :   BepInEx] Loading [Quick Stack - Store - Sort - Trash - Restock 1.3.4]
+[Info   :   BepInEx] Loading [OdinsFoodBarrels 1.0.10]
+[Info   :   BepInEx] Loading [Basements 1.0.1]
+[Error  : Unity Log] AmbiguousMatchException: Ambiguous match found.
+Stack trace:
+System.RuntimeType.GetMethodImpl (System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConv, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) (at <695d1cc93cca45069c528c15c9fdd749>:0)
+System.Type.GetMethod (System.String name, System.Reflection.BindingFlags bindingAttr) (at <695d1cc93cca45069c528c15c9fdd749>:0)
+HarmonyLib.AccessTools.DeclaredMethod (System.Type type, System.String name, System.Type[] parameters, System.Type[] generics) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+HarmonyLib.PatchTools.GetOriginalMethod (HarmonyLib.HarmonyMethod attr) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+Rethrow as HarmonyException: Ambiguous match for HarmonyMethod[(class=Character, methodname=InInterior, type=Normal, args=undefined)]
+HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+HarmonyLib.PatchClassProcessor.Patch () (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+HarmonyLib.Harmony.<PatchAll>b__11_0 (System.Type type) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+Basements.BasementPlugin.Awake () (at <d3e4dd1632b2406ba41e7fa699ceafa5>:0)
+UnityEngine.GameObject:AddComponent(Type)
+BepInEx.Bootstrap.Chainloader:Start()
+UnityEngine.Application:.cctor()
+
+[Info   :   BepInEx] Loading [OdinShip 0.2.5]
+[Info   :   BepInEx] Loading [Speedy Paths Mod 1.0.7]
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Initialized Server Authoritative Config Manager.
+[Info   :   BepInEx] Loading [BeastsOfBurden 1.0.4]
+[Info   :BeastsOfBurden] Loading Beasts of Burden 
+[Info   :   BepInEx] Loading [Valheim Plus 0.9.9.11]
+[Info   :Valheim Plus] Trying to load the configuration file
+[Info   : Unity Log] Loading config section AdvancedBuildingMode
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section AdvancedEditingMode
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Bed
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Beehive
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Building
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Deconstruct
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Inventory
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Items
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Fermenter
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section FireSource
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Food
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Smelter
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Furnace
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Hotkeys
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Kiln
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Windmill
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section SpinningWheel
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Map
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Player
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Server
+[Info   : Unity Log]  Loading key maxPlayers
+[Info   : Unity Log]  Loading key disableServerPassword
+[Info   : Unity Log]  Loading key enforceMod
+[Info   : Unity Log]  Loading key serverSyncsConfig
+[Info   : Unity Log]  Loading key serverSyncHotkeys
+[Info   : Unity Log] Loading config section Stamina
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section StaminaUsage
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Workbench
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Time
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Ward
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section StructuralIntegrity
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Tameable
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Hud
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Experience
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Camera
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Game
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Wagon
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Gathering
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Pickable
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Durability
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Armor
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section FreePlacementRotation
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Shields
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section FirstPerson
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section GridAlignment
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section CraftFromChest
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section ValheimPlus
+[Info   : Unity Log]  Loading key mainMenuLogo
+[Info   : Unity Log]  Loading key serverBrowserAdvertisement
+[Info   : Unity Log] Loading config section PlayerProjectile
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section MonsterProjectile
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section GameClock
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Brightness
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Chat
+[Info   : Unity Log]  Section not enabled
+[Info   :Valheim Plus] Configuration file loaded succesfully.
+[Info   :Valheim Plus] ValheimPlus [0.9.9.11] is up to date.
+[Info   :   BepInEx] Loading [Display BepInEx Info In-Game 2.0.0]
+[Info   :   BepInEx] Loading [Fermenter Percentage 1.0.0]
+[Info   :   BepInEx] Loading [OdinArchitect 1.1.0]
+[Info   :OdinArchitect.OdinArchitect] All the embedded resources was loaded
+[Info   :OdinArchitect.OdinArchitect] Loaded items and conversions
+[Info   :   BepInEx] Loading [OdinCampsite 1.4.0]
+[Info   :   BepInEx] Loading [OdinTrainingPlace 1.4.0]
+[Info   :   BepInEx] Loading [Equipment and Quick Slots 2.1.1]
+[Info   :   BepInEx] Loading [Improved Build HUD 1.0.4]
+[Info   :   BepInEx] Loading [Render Limits 1.5]
+[Info   :   BepInEx] Loading [Show Plant Progress 1.4.0]
+[Info   :   BepInEx] Loading [Faster Boats 0.0.1]
+[Info   :   BepInEx] Loading [Adventure Backpacks 1.6.3]
+[Message:   BepInEx] Chainloader startup complete
+[Info   : Unity Log] 02/14/2023 14:27:34: Starting to load scene:start
+
+[Info   : Unity Log] 02/14/2023 14:27:35: Using environment steamid 892970
+
+[Info   : Unity Log] 02/14/2023 14:27:35: Using steam APPID:892970
+
+[Info   : Unity Log] 02/14/2023 14:27:35: Authentication:k_ESteamNetworkingAvailability_Attempting
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+Message+KskLiVacritPsLuBSbRJJeCDludr.⁭‫⁫‎⁭‎​‬⁭​‌⁮‍⁭‏⁬⁪​‎‭⁪‮‍⁬‬⁫‪‎⁭‭‭‮‍‬‬‍‬⁯‍⁫‮ (System.Type , System.String , System.Reflection.BindingFlags ) (at <06dfb8dbe515448180a99499db0c481d>:0)
+Message+KskLiVacritPsLuBSbRJJeCDludr.MoveNext () (at <06dfb8dbe515448180a99499db0c481d>:0)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <c9fb31c2eee14ce4aeb36e4c61e154d8>:0)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Message:SelectPool(MonoBehaviour, IEnumerator)
+Message:CallPool()
+BepInEx.ThreadingHelper:Update()
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+Callback+KskLiVacritPsLuBSbRJJeCDludr.⁭‫⁫‎⁭‎​‬⁭​‌⁮‍⁭‏⁬⁪​‎‭⁪‮‍⁬‬⁫‪‎⁭‭‭‮‍‬‬‍‬⁯‍⁫‮ (System.Type , System.String , System.Reflection.BindingFlags ) (at <f4ab081e9bb64bb899083bde23e4c8d4>:0)
+Callback+KskLiVacritPsLuBSbRJJeCDludr.MoveNext () (at <f4ab081e9bb64bb899083bde23e4c8d4>:0)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <c9fb31c2eee14ce4aeb36e4c61e154d8>:0)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Callback:ListWriter(MonoBehaviour, IEnumerator)
+Callback:AddWriter()
+BepInEx.ThreadingHelper:Update()
+
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
+[Info   : Unity Log] 02/14/2023 14:27:39: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:39: Loaded localization CSV:localization_extra language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:39: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:39: Loaded localization CSV:localization_extra language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:39: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:39: Loaded localization CSV:localization_extra language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:39: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:39: Loaded localization CSV:localization_extra language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:39: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:39: Loaded localization CSV:localization_extra language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:39: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:39: Loaded localization CSV:localization_extra language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:39: Steam initialized, persona:pandiesek
+
+[Info   : Unity Log] 02/14/2023 14:27:39: PlayFab custom ID set to "Steam_76561198395776820"
+
+[Info   : Unity Log] 02/14/2023 14:27:39: Using default prefs
+
+[Info   : Unity Log] 02/14/2023 14:27:39: Valheim version:0.213.4@0.9.9.11
+
+[Info   : Unity Log] 02/14/2023 14:27:40: Worldgenerator version setup:2
+
+[Info   :Jotunn.Managers.CommandManager] Adding 1 commands to the Console
+[Info   : Unity Log] 02/14/2023 14:27:40: Render threading mode:MultiThreaded
+
+[Info   : Unity Log] 02/14/2023 14:27:40: Checking for installed DLCs
+
+[Info   : Unity Log] 02/14/2023 14:27:40: DLC:beta installed:False
+
+[Info   :Jotunn.Managers.LocalizationManager] Loading custom localizations
+[Info   : Unity Log] 02/14/2023 14:27:40: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 02/14/2023 14:27:40: Loaded localization CSV:localization_extra language:English
+
+[Info   :Jotunn.Managers.LocalizationManager] Adding tokens for language 'English'
+[Info   :Jotunn.Managers.ItemManager] Adding 2 custom items to the ObjectDB
+[Info   : Unity Log] 02/14/2023 14:27:41: Sending PlayFab login request (attempt 1)
+
+[Info   : Unity Log] 02/14/2023 14:27:41: Ticket is System.Byte[] of length 369
+
+[Info   : Unity Log] 02/14/2023 14:27:41: Session auth respons callback
+
+[Info   : Unity Log] 02/14/2023 14:27:41: Starting music menu
+
+[Info   : Unity Log] 02/14/2023 14:27:41: UI Group status changed Menu = True
+
+[Info   : Unity Log] 02/14/2023 14:27:42: PlayFab logged in as "Steam_76561198395776820"
+
+[Info   : Unity Log] 02/14/2023 14:27:42: PlayFab local entity ID is 15FA594A1A01A581
+
+[Info   : Unity Log] 02/14/2023 14:27:43: UI Group status changed Menu = True
+
+[Info   : Unity Log] 02/14/2023 14:27:47: FOund selected Start game
+
+[Info   : Unity Log] 02/14/2023 14:27:47: show character selection
+
+[Info   : Unity Log] 02/14/2023 14:27:48: OnCharacterStart
+
+[Info   : Unity Log] 02/14/2023 14:27:53: Loading main scene
+
+[Info   : Unity Log] 02/14/2023 14:27:53: Steam initialized, persona:pandiesek
+
+[Info   : Unity Log] 02/14/2023 14:27:53: PlayFab custom ID set to "Steam_76561198395776820"
+
+[Info   : Unity Log] 02/14/2023 14:27:53: Using default prefs
+
+[Info   :Jotunn.Managers.CommandManager] Adding 1 commands to the Console
+[Info   : Unity Log] 02/14/2023 14:27:53: Loading player profile grom
+
+[Info   : Unity Log] 02/14/2023 14:27:53: isModded: True
+
+[Info   : Unity Log] 02/14/2023 14:27:53: Zonesystem Awake 651
+
+[Info   : Unity Log] 02/14/2023 14:27:53: DungeonDB Awake 651
+
+[Info   : Unity Log] 02/14/2023 14:27:53: Steam initialized, persona:pandiesek
+
+[Info   : Unity Log] 02/14/2023 14:27:53: Worldgenerator version setup:2
+
+[Info   : Unity Log] Registered 'advize.PlantEverything ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'Azumatt.CraftyCarts ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'Azumatt.CraftyCarts PieceManager ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'balrond.astafaraios.BalrondContainers ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'blacks7ar.SNEAKer ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'OdinsFoodBarrels ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'gravebear.odinsfoodbarrels PieceManager ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'marlthon.OdinShip ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'marlthon.OdinShip PieceManager ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'marlthon.OdinShip ItemManager ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'OdinCampsite ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'Raelaziel.OdinCampsite PieceManager ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'Raelaziel.OdinCampsite ItemManager ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'OdinTrainingPlace ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'Raelaziel.OdinTrainingPlace PieceManager ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'Raelaziel.OdinTrainingPlace ItemManager ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'render_limits ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'vapok.mods.adventurebackpacks ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'vapok.mods.adventurebackpacks ItemManager ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'goldenrevolver.quick_stack_store ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'Harmony.RoloPogo.Basements ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'Harmony.RoloPogo.Basements PieceManager ConfigSync' RPC - waiting for incoming connections
+[Info   :Jotunn.Managers.PrefabManager] Adding 209 custom prefabs to the ZNetScene
+[Info   : Unity Log] 02/14/2023 14:27:55: Audioman already exist, destroying self
+
+[Info   : Unity Log] 02/14/2023 14:27:55: Checking for installed DLCs
+
+[Info   : Unity Log] 02/14/2023 14:27:55: DLC:beta installed:False
+
+[Info   :Jotunn.Managers.ItemManager] Adding 2 custom items to the ObjectDB
+[Info   :Jotunn.Managers.ItemManager] Adding 2 custom recipes to the ObjectDB
+[Info   :Jotunn.Managers.ItemManager] Adding 12 custom item conversions
+[Info   :Jotunn.Managers.PieceManager] Adding 202 custom pieces to the PieceTables
+[Info   : Unity Log] [floorsareroofs]: Triggered from PieceManager_OnPiecesRegistered
+[Info   : Unity Log] [floorsareroofs]: Beginning patch attempt
+[Info   : Unity Log] [floorsareroofs]: Starting to patches pieces in Hammer Hammer.
+[Info   : Unity Log] [floorsareroofs]: Preparing to patch wood_floor_1x1
+[Info   : Unity Log] [floorsareroofs] Successfully patched wood_floor_1x1 into a roof
+[Info   : Unity Log] [floorsareroofs] wood_floor_1x1 patched to not degrade in the rain
+[Info   : Unity Log] [floorsareroofs]: Preparing to patch wood_floor
+[Info   : Unity Log] [floorsareroofs] Successfully patched wood_floor into a roof
+[Info   : Unity Log] [floorsareroofs] wood_floor patched to not degrade in the rain
+[Info   : Unity Log] [floorsareroofs]: Finished with hammer Hammer.  Sucessfully updated 2 floors.
+[Info   : Unity Log] [floorsareroofs]: Successfully updated 2 floors.  Config setting has 2 floors specified.
+[Info   : Unity Log] [floorsareroofs]: Floors updated finished successfully.
+[Info   :Jotunn.Managers.NetworkManager] Registering 2 custom RPCs
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Authoritative Config Registered -> AuthoritativeConfig_nex.SpeedyPaths
+[Info   : Unity Log] 02/14/2023 14:27:59: Zonesystem Start 651
+
+[Info   : Unity Log] 02/14/2023 14:28:00: Added 3 locations, 0 vegetations, 0 environments, 0 biome env-setups, 0 clutter  from locations_cp1
+
+[Info   : Unity Log] 02/14/2023 14:28:00: Added 1 locations, 0 vegetations, 1 environments, 0 biome env-setups, 0 clutter  from locations_mountaincaves
+
+[Info   : Unity Log] 02/14/2023 14:28:00: Added 27 locations, 25 vegetations, 5 environments, 1 biome env-setups, 3 clutter  from locations_mistlands
+
+[Info   : Unity Log] 02/14/2023 14:28:00: DungeonDB Start 651
+
+[Info   : Unity Log] 02/14/2023 14:28:00: ZRpc timeout set to 30s 
+
+[Info   : Unity Log] 02/14/2023 14:28:00: Load world: Zawarudo (Zawarudo)
+
+[Info   : Unity Log] 02/14/2023 14:28:00: Loading 764766 zdos , my id 1763498541 data version:29
+
+[Info   : Unity Log] 02/14/2023 14:28:02: Loaded 100000 dead zdos
+
+[Info   : Unity Log] 02/14/2023 14:28:02: Removed 0 OLD generated ZDOS
+
+[Info   : Unity Log] 02/14/2023 14:28:02: Loaded 10019 locations
+
+[Info   : Unity Log] 02/14/2023 14:28:02: Unloading unused assets
+
+[Info   : Unity Log] 02/14/2023 14:28:03: Session auth respons callback
+
+[Info   : Unity Log] 02/14/2023 14:28:09: Unpacking compressed mapdata 33579
+
+[Info   : Unity Log] 02/14/2023 14:28:10: Starting respawn
+
+[Info   : Unity Log] 02/14/2023 14:28:10: tip:$loadscreen_tip22
+
+[Info   : Unity Log] 02/14/2023 14:28:18: Force generaeting hmap (256.0, 0.0, -512.0)
+
+[Info   : Unity Log] 02/14/2023 14:28:18: Force generaeting hmap (256.0, 0.0, -448.0)
+
+[Info   : Unity Log] 02/14/2023 14:28:19: Setting saddle:True
+
+[Info   : Unity Log] 02/14/2023 14:28:19: Spawned after 8,480004
+
+[Info   : Unity Log] 02/14/2023 14:28:19: Skipping unloading unused assets
+
+[Info   : Unity Log] 02/14/2023 14:28:19: Minimap: Adding unique location (185.8, 33.6, -197.4)
+
+[Info   : Unity Log] 02/14/2023 14:28:19: Minimap: Adding unique location (787.1, 31.0, 1518.8)
+
+[Info   : Unity Log] 02/14/2023 14:28:19: Done fading color
+
+[Info   : Unity Log] 02/14/2023 14:28:19: Done fading color
+
+[Info   : Unity Log] 02/14/2023 14:28:19: Done fading color
+
+[Info   : Unity Log] 02/14/2023 14:28:19: Done fading color
+
+[Info   : Unity Log] 02/14/2023 14:28:19: Done fading color
+
+[Info   : Unity Log] 02/14/2023 14:28:21: Starting music home
+
+[Info   : Unity Log] 02/14/2023 14:28:21: Resumed music home at 0
+
+[Info   : Unity Log] 02/14/2023 14:32:29: Stopped music home at 2787746
+
+[Info   : Unity Log] 02/14/2023 14:32:29: Starting music meadows
+
+[Info   : Unity Log] 02/14/2023 14:32:29: Resumed music meadows at 0
+
+[Info   : Unity Log] 02/14/2023 14:32:47: Disabling HIT AREA  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:32:50: Disabling HIT AREA  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:33:19: Disabling blast  item
+
+[Info   : Unity Log] 02/14/2023 14:33:19: Disabling blast (1)  item
+
+[Info   : Unity Log] 02/14/2023 14:33:19: Disabling blast (2)  item
+
+[Info   : Unity Log] 02/14/2023 14:33:19: Disabling blast (3)  item
+
+[Info   : Unity Log] 02/14/2023 14:33:19: Disabling blast (4)  item
+
+[Info   : Unity Log] 02/14/2023 14:33:19: Disabling blast (5)  item
+
+[Info   : Unity Log] 02/14/2023 14:33:19: Disabling blast (6)  item
+
+[Info   : Unity Log] 02/14/2023 14:33:19: Disabling blast (7)  item
+
+[Info   : Unity Log] 02/14/2023 14:34:42: Update PlayFab entity token
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 14:35:12: Disabling visual  item
+
+[Info   : Unity Log] 02/14/2023 14:35:12: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:35:14: Disabling visual  item
+
+[Info   : Unity Log] 02/14/2023 14:35:14: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:35:21: Disabling viewblocker  viewblock
+
+[Info   : Unity Log] 02/14/2023 14:35:34: Disabling viewblock  viewblock
+
+[Info   : Unity Log] 02/14/2023 14:35:50: Disabling viewblocker  viewblock
+
+[Info   : Unity Log] 02/14/2023 14:35:55: Disabling viewblocker  viewblock
+
+[Info   : Unity Log] 02/14/2023 14:36:02: Disabling viewblocker  viewblock
+
+[Info   : Unity Log] 02/14/2023 14:36:08: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:08: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:19: Setting selected recipe 0
+
+[Info   : Unity Log] 02/14/2023 14:36:19: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 14:36:19: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 14:36:31: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:31: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:32: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:32: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:35: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:35: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:35: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:35: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:35: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:35: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:36: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:36: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:36: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:36: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:36: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:36: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:40: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:40: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:40: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:40: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:42: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:42: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:43: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:43: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:44: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:44: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:44: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:44: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:45: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:45: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:46: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:46: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:46: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:46: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:47: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:47: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:47: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:47: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:52: Disabling default  item
+
+[Info   : Unity Log] 02/14/2023 14:36:52: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:36:56: Player 1763498541 wants to open piece_chest_wood(Clone)   im: 1763498541
+
+[Info   : Unity Log] 02/14/2023 14:36:56: Setting selected recipe 0
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 14:36:56: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 14:36:56: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 14:36:56: UI Group status changed Container = False
+
+[Info   : Unity Log] 02/14/2023 14:37:02: Stopped music meadows at 2331371
+
+[Info   : Unity Log] 02/14/2023 14:37:02: Starting music meadows
+
+[Info   : Unity Log] 02/14/2023 14:37:02: Resumed music meadows at 2331371
+
+[Info   : Unity Log] 02/14/2023 14:37:14: Starting music evening
+
+[Info   : Unity Log] 02/14/2023 14:37:15: Stopped music meadows at 553190
+
+[Info   : Unity Log] 02/14/2023 14:37:22: Setting selected recipe 0
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 14:37:22: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 14:37:22: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 14:37:33: UI Group status changed root = False
+
+[Info   : Unity Log] 02/14/2023 14:37:33: FOund selected ButtonCanvas
+
+[Info   : Unity Log] 02/14/2023 14:37:33: UI Group status changed Player = False
+
+[Info   : Unity Log] 02/14/2023 14:37:34: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 14:37:34: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 14:37:35: Setting selected recipe 0
+
+[Info   : Unity Log] 02/14/2023 14:37:39: Setting selected recipe 0
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 14:37:39: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 14:37:39: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 14:37:53: Setting selected recipe 0
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 14:37:53: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 14:37:53: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 14:38:29: Setting selected recipe 0
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 14:38:29: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 14:38:29: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 14:39:23: Disabling OnboardTrigger  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:39:23: Disabling FloatCollider  Ignore Raycast
+
+[Info   : Unity Log] 02/14/2023 14:39:25: Disabling OnboardTrigger  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:39:25: Disabling FloatCollider  Ignore Raycast
+
+[Info   : Unity Log] 02/14/2023 14:39:25: Disabling OnboardTrigger  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:39:25: Disabling FloatCollider  Ignore Raycast
+
+[Info   : Unity Log] 02/14/2023 14:39:25: Disabling OnboardTrigger  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:39:25: Disabling FloatCollider  Ignore Raycast
+
+[Info   : Unity Log] 02/14/2023 14:39:25: Disabling OnboardTrigger  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:39:25: Disabling FloatCollider  Ignore Raycast
+
+[Info   : Unity Log] 02/14/2023 14:39:25: Disabling OnboardTrigger  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:39:25: Disabling FloatCollider  Ignore Raycast
+
+[Info   : Unity Log] 02/14/2023 14:39:25: Disabling OnboardTrigger  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:39:25: Disabling FloatCollider  Ignore Raycast
+
+[Info   : Unity Log] 02/14/2023 14:39:31: Disabling OnboardTrigger  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:39:31: Disabling FloatCollider  Ignore Raycast
+
+[Info   : Unity Log] 02/14/2023 14:39:36: Disabling OnboardTrigger  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:39:36: Disabling FloatCollider  Ignore Raycast
+
+[Info   : Unity Log] 02/14/2023 14:39:43: Disabling OnboardTrigger  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:39:43: Disabling FloatCollider  Ignore Raycast
+
+[Info   : Unity Log] 02/14/2023 14:39:56: Disabling OnboardTrigger  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:39:56: Disabling FloatCollider  Ignore Raycast
+
+[Info   : Unity Log] 02/14/2023 14:40:02: Disabling OnboardTrigger  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:40:02: Disabling FloatCollider  Ignore Raycast
+
+[Info   : Unity Log] 02/14/2023 14:40:07: Disabling OnboardTrigger  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:40:07: Disabling FloatCollider  Ignore Raycast
+
+[Info   : Unity Log] 02/14/2023 14:40:14: Disabling OnboardTrigger  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:40:14: Disabling FloatCollider  Ignore Raycast
+
+[Info   : Unity Log] 02/14/2023 14:40:33: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:40:33: Disabling WaterVolume  WaterVolume
+
+[Info   : Unity Log] 02/14/2023 14:40:33: Disabling WaterSurface  Water
+
+[Info   : Unity Log] 02/14/2023 14:40:41: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:40:41: Disabling WaterVolume  WaterVolume
+
+[Info   : Unity Log] 02/14/2023 14:40:41: Disabling WaterSurface  Water
+
+[Info   : Unity Log] 02/14/2023 14:40:49: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:41:23: Disabling bronzehelmet  item
+
+[Info   : Unity Log] 02/14/2023 14:41:26: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:41:26: Disabling HIT AREA  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:41:26: Disabling HIT AREA (1)  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:41:32: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:41:32: Disabling HIT AREA  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:41:32: Disabling HIT AREA (1)  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:41:33: Disabling bronzehelmet  item
+
+[Warning: Unity Log] Renderer '_Combined Mesh [high]' is registered with more than one LODGroup ('rae_SwimmingPool(Clone)' and 'New').
+[Warning: Unity Log] Renderer '_Combined Mesh [high]' is registered with more than one LODGroup ('rae_SwimmingPool(Clone)' and 'New').
+[Warning: Unity Log] Renderer '_Combined Mesh [high]' is registered with more than one LODGroup ('New' and 'rae_SwimmingPool(Clone)').
+[Warning: Unity Log] Renderer '_Combined Mesh [high]' is registered with more than one LODGroup ('New' and 'rae_SwimmingPool(Clone)').
+[Warning: Unity Log] Renderer '_Combined Mesh [high]' is registered with more than one LODGroup ('New' and 'rae_SwimmingPool(Clone)').
+[Warning: Unity Log] Renderer '_Combined Mesh [high]' is registered with more than one LODGroup ('New' and 'rae_SwimmingPool(Clone)').
+[Info   : Unity Log] 02/14/2023 14:41:42: Disabling WaterVolume  WaterVolume
+
+[Warning: Unity Log] Renderer '_Combined Mesh [high]' is registered with more than one LODGroup ('rae_SwimmingPool' and 'New').
+[Warning: Unity Log] Renderer '_Combined Mesh [high]' is registered with more than one LODGroup ('rae_SwimmingPool' and 'New').
+[Warning: Unity Log] Renderer '_Combined Mesh [high]' is registered with more than one LODGroup ('rae_SwimmingPool' and 'New').
+[Warning: Unity Log] Renderer '_Combined Mesh [high]' is registered with more than one LODGroup ('rae_SwimmingPool' and 'New').
+[Warning: Unity Log] Renderer '_Combined Mesh [high]' is registered with more than one LODGroup ('rae_SwimmingPool' and 'New').
+[Warning: Unity Log] Renderer '_Combined Mesh [high]' is registered with more than one LODGroup ('rae_SwimmingPool' and 'New').
+[Info   : Unity Log] 02/14/2023 14:41:49: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:41:49: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 14:41:49: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:42:01: Spawned Greydwarf x 1
+
+[Info   : Unity Log] 02/14/2023 14:42:02: Starting music home
+
+[Info   : Unity Log] 02/14/2023 14:42:16: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:42:16: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 14:42:16: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:42:41: Setting selected recipe 0
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 14:42:41: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 14:42:41: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 14:42:45: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:42:45: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 14:42:45: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:42:48: Placed Basement
+
+[Info   : Unity Log] 02/14/2023 14:42:48: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:42:48: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 14:42:48: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:42:48: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:42:48: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 14:42:48: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:42:48: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:42:48: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 14:42:48: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:43:02: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:43:02: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 14:43:02: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:43:02: Removing non WNT object with hammer Basement(Clone)
+
+[Info   : Unity Log] HoeRadius Applying raise radius 1,5
+[Info   : Unity Log] HoeRadius Applying paint radius 2,5
+[Info   : Unity Log] 02/14/2023 14:43:21: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:43:21: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 14:43:21: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:43:29: Placed Basement
+
+[Info   : Unity Log] 02/14/2023 14:43:32: Setting forced environment Basement
+
+[Info   : Unity Log] 02/14/2023 14:43:35: Stopped music home at 4093420
+
+[Info   : Unity Log] 02/14/2023 14:43:49: Setting forced environment 
+
+[Info   : Unity Log] 02/14/2023 14:43:50: Starting music home
+
+[Info   : Unity Log] 02/14/2023 14:43:51: Resumed music home at 4093420
+
+[Info   : Unity Log] 02/14/2023 14:43:52: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:43:52: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 14:43:52: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:43:54: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:43:54: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 14:43:54: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:43:54: Removing non WNT object with hammer Basement(Clone)
+
+[Info   : Unity Log] 02/14/2023 14:43:58: Setting selected recipe 42
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 14:43:59: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 14:43:59: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 14:44:01: Item is not in this container
+
+[Info   : Unity Log] 02/14/2023 14:44:01: Item is not in this container
+
+[Info   : Unity Log] 02/14/2023 14:44:01: Item is not in this container
+
+[Info   : Unity Log] 02/14/2023 14:44:01: Setting selected recipe 42
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 14:44:03: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 14:44:05: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 14:44:05: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 14:44:06: Placed mud_road_v2
+
+[Info   : Unity Log] 02/14/2023 14:44:06: Stopped music home at 692428
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 14:44:07: Placed mud_road_v2
+
+[Info   : Unity Log] 02/14/2023 14:44:10: Starting music home
+
+[Info   : Unity Log] 02/14/2023 14:44:10: Resumed music home at 692428
+
+[Info   : Unity Log] 02/14/2023 14:46:15: Starting music morning
+
+[Info   : Unity Log] 02/14/2023 14:46:16: Stopped music home at 6276075
+
+[Info   : Unity Log] 02/14/2023 14:46:50: Starting music home
+
+[Info   : Unity Log] 02/14/2023 14:46:50: Resumed music home at 6276075
+
+[Info   : Unity Log] 02/14/2023 14:51:20: Update PlayFab entity token
+
+[Info   : Unity Log] 02/14/2023 14:51:58: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:51:58: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 14:51:58: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:52:03: Placed Basement
+
+[Info   : Unity Log] 02/14/2023 14:52:11: Setting forced environment Basement
+
+[Info   : Unity Log] 02/14/2023 14:52:14: Stopped music home at 6147343
+
+[Info   : Unity Log] 02/14/2023 14:52:14: Starting music meadows
+
+[Info   : Unity Log] 02/14/2023 14:52:21: Spawned Fish2 x 3
+
+[Info   : Unity Log] 02/14/2023 14:52:22: Setting forced environment 
+
+[Info   : Unity Log] 02/14/2023 14:52:33: Stopped music meadows at 829785
+
+[Info   : Unity Log] 02/14/2023 14:52:33: Starting music home
+
+[Info   : Unity Log] 02/14/2023 14:52:33: Resumed music home at 6147343
+
+[Info   : Unity Log] 02/14/2023 14:52:33: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:52:33: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 14:52:33: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:52:37: Stopped music home at 155231
+
+[Info   : Unity Log] 02/14/2023 14:52:37: Starting music meadows
+
+[Info   : Unity Log] 02/14/2023 14:52:37: Resumed music meadows at 829785
+
+[Info   : Unity Log] 02/14/2023 14:52:40: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:52:47: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:52:50: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:54:18: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:54:18: Disabling FireWarmth  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:54:18: Disabling model (2)  item
+
+[Info   : Unity Log] 02/14/2023 14:54:18: Disabling model (3)  item
+
+[Info   : Unity Log] 02/14/2023 14:54:28: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:54:38: Placed rae_bird_house
+
+[Info   : Unity Log] 02/14/2023 14:54:51: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:54:51: Disabling model  item
+
+[Info   : Unity Log] 02/14/2023 14:55:00: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 14:55:00: Disabling model  item
+
+[Info   : Unity Log] 02/14/2023 14:55:17: Disabling visual  item
+
+[Info   : Unity Log] 02/14/2023 14:55:17: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:56:15: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:56:18: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:56:22: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:56:25: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:56:28: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:56:33: Disabling visual  item
+
+[Info   : Unity Log] 02/14/2023 14:56:33: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 14:56:37: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:56:39: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:56:42: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:56:45: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:57:07: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:57:08: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:57:11: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:57:14: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:57:16: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:57:19: Placed rae_wood_ramp_26
+
+[Info   : Unity Log] 02/14/2023 14:57:47: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 14:57:47: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 14:57:47: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 14:57:47: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 14:57:57: Stopped music meadows at 4403954
+
+[Info   : Unity Log] 02/14/2023 14:57:57: Starting music home
+
+[Info   : Unity Log] 02/14/2023 14:57:57: Resumed music home at 155231
+
+[Info   : Unity Log] 02/14/2023 14:57:59: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 14:57:59: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 14:57:59: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 14:57:59: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 14:58:11: Uncompressed size 8397318
+
+[Info   : Unity Log] 02/14/2023 14:58:11: Compressed size 33579
+
+[Info   : Unity Log] 02/14/2023 14:58:11: Considering autobackup. World time: 1799,96, short time: 7200, long time: 43200, backup count: 4
+
+[Info   : Unity Log] 02/14/2023 14:58:11: No autobackup needed yet...
+
+[Info   : Unity Log] 02/14/2023 14:58:12: clone 954
+
+[Info   : Unity Log] 02/14/2023 14:58:44: Stopped music home at 2240043
+
+[Info   : Unity Log] 02/14/2023 14:58:44: Starting music meadows
+
+[Info   : Unity Log] 02/14/2023 14:58:44: Resumed music meadows at 4403954
+
+[Info   : Unity Log] 02/14/2023 14:58:51: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 14:58:55: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 14:58:59: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 14:59:06: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 14:59:13: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 14:59:19: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 14:59:22: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 14:59:26: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 14:59:30: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 14:59:34: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 14:59:39: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 14:59:44: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 14:59:46: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 14:59:51: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 14:59:56: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:00:00: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:00:05: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:00:10: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:00:14: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:00:21: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:00:25: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:00:28: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:00:32: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:01:04: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:01:11: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:01:16: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:01:25: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:01:29: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:01:33: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:01:37: Placed wooden_fence_2
+
+[Info   : Unity Log] 02/14/2023 15:01:49: Placed wooden_fence_2_gate
+
+[Info   : Unity Log] 02/14/2023 15:01:55: Placed wooden_fence_2_gate
+
+[Info   : Unity Log] 02/14/2023 15:02:59: Placed wooden_arch_1
+
+[Info   : Unity Log] 02/14/2023 15:03:15: Disabling HIT AREA  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:03:20: Disabling HIT AREA  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:03:20: Disabling HIT AREA (1)  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:05:20: Placed big_pillar
+
+[Info   : Unity Log] 02/14/2023 15:05:45: Placed stonewall_hardrock_pillar
+
+[Info   : Unity Log] 02/14/2023 15:05:50: Placed stonewall_hardrock_stairs
+
+[Info   : Unity Log] 02/14/2023 15:05:53: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:05:53: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 15:05:53: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:05:53: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:05:54: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:05:54: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 15:05:54: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:06:00: Placed stone_pillar
+
+[Info   : Unity Log] 02/14/2023 15:06:06: Placed stone_stair
+
+[Info   : Unity Log] 02/14/2023 15:06:55: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 15:07:01: Unloading unused assets
+
+[Info   : Unity Log] 02/14/2023 15:08:26: Update PlayFab entity token
+
+[Info   : Unity Log] 02/14/2023 15:19:28: Setting selected recipe 43
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 15:19:28: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 15:19:28: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 15:19:47: Starting music evening
+
+[Info   : Unity Log] 02/14/2023 15:19:48: Stopped music meadows at 1901841
+
+[Info   : Unity Log] 02/14/2023 15:28:19: Update PlayFab entity token
+
+[Info   : Unity Log] 02/14/2023 15:28:48: Starting music morning
+
+[Info   : Unity Log] 02/14/2023 15:29:22: Starting music meadows
+
+[Info   : Unity Log] 02/14/2023 15:38:40: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 15:38:40: Setting selected recipe 43
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 15:38:40: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 15:38:40: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 15:39:29: Placed rae_hidden_door
+
+[Info   : Unity Log] 02/14/2023 15:39:30: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 15:40:45: Skipping unloading unused assets
+
+[Info   : Unity Log] 02/14/2023 15:40:45: Uncompressed size 8397318
+
+[Info   : Unity Log] 02/14/2023 15:40:45: Compressed size 33579
+
+[Info   : Unity Log] 02/14/2023 15:40:45: Considering autobackup. World time: 3599,98, short time: 7200, long time: 43200, backup count: 4
+
+[Info   : Unity Log] 02/14/2023 15:40:45: No autobackup needed yet...
+
+[Info   : Unity Log] 02/14/2023 15:40:46: clone 793
+
+[Info   : Unity Log] 02/14/2023 15:40:48: Placed IG_Barrels_Closed_Up
+
+[Info   : Unity Log] 02/14/2023 15:40:57: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:41:01: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:41:07: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:41:09: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:41:13: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:41:13: Disabling betahorn  item
+
+[Info   : Unity Log] 02/14/2023 15:41:13: Disabling betahorn (1)  item
+
+[Info   : Unity Log] 02/14/2023 15:41:13: Disabling betahorn (2)  item
+
+[Info   : Unity Log] 02/14/2023 15:41:13: Disabling betahorn (3)  item
+
+[Info   : Unity Log] 02/14/2023 15:41:13: Disabling FireWarmth  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:41:13: Disabling FireWarmth  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:41:20: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:41:20: Disabling betahorn  item
+
+[Info   : Unity Log] 02/14/2023 15:41:20: Disabling betahorn (1)  item
+
+[Info   : Unity Log] 02/14/2023 15:41:20: Disabling betahorn (2)  item
+
+[Info   : Unity Log] 02/14/2023 15:41:20: Disabling betahorn (3)  item
+
+[Info   : Unity Log] 02/14/2023 15:41:20: Disabling FireWarmth  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:41:20: Disabling FireWarmth  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:41:23: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:41:51: Disabling Dinner_table05  character
+
+[Info   : Unity Log] 02/14/2023 15:42:02: Disabling FireWarmth  character_trigger
+
+[Info   : Unity Log] 02/14/2023 15:42:23: Placed rae_bronze_storage_small
+
+[Info   : Unity Log] 02/14/2023 15:42:26: Player 1763498541 wants to open rae_bronze_storage_small(Clone)   im: 1763498541
+
+[Info   : Unity Log] 02/14/2023 15:42:26: Setting selected recipe 42
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 15:42:26: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 15:42:26: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 15:42:27: Player 1763498541 wants to open rae_bronze_storage_small(Clone)   im: 1763498541
+
+[Info   : Unity Log] 02/14/2023 15:42:27: Setting selected recipe 42
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 15:42:27: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 15:42:27: UI Group status changed Player = True
+
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "New Game Object"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "New Game Object"
+[Info   : Unity Log] 02/14/2023 15:43:44: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:44:48: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:44:54: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:45:02: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:45:06: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:45:10: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:45:14: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:45:20: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:45:29: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:45:41: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:45:53: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:46:02: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:46:09: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:46:20: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:46:23: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:46:29: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:46:34: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:46:46: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:46:49: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:46:58: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:47:03: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:47:06: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:47:12: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:47:20: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:47:30: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:47:36: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:47:49: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:48:38: Update PlayFab entity token
+
+[Info   : Unity Log] 02/14/2023 15:49:49: Starting music evening
+
+[Info   : Unity Log] 02/14/2023 15:49:50: Stopped music meadows at 5596224
+
+[Info   : Unity Log] 02/14/2023 15:49:50: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:50:37: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:50:39: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:50:43: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:52:29: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:52:33: Removing non WNT object with hammer ShipConstruction2(Clone)
+
+[Info   : Unity Log] 02/14/2023 15:52:38: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:52:43: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:52:57: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:53:00: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:53:10: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:53:12: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:53:18: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:53:21: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:53:25: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:53:32: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:53:37: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:53:49: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:53:53: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:53:59: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:54:04: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:54:09: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:54:12: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:54:15: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:54:19: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:54:22: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:54:32: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:54:33: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:54:40: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:56:32: Spawned Greydwarf x 1
+
+[Info   : Unity Log] 02/14/2023 15:57:20: Disabling visual  item
+
+[Info   : Unity Log] 02/14/2023 15:57:20: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 15:57:26: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:57:59: Disabling visual  item
+
+[Info   : Unity Log] 02/14/2023 15:57:59: Disabling PE_Picked  item
+
+[Info   : Unity Log] 02/14/2023 15:58:06: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:58:12: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:58:25: Placed rae_Bigger_Stone_Floor_4x4
+
+[Info   : Unity Log] 02/14/2023 15:58:50: Starting music morning
+
+[Info   : Unity Log] 02/14/2023 15:59:24: Starting music meadows
+
+[Info   : Unity Log] 02/14/2023 16:08:46: Update PlayFab entity token
+
+[Info   : Unity Log] 02/14/2023 16:09:07: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:08: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:12: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:13: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:15: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:16: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:18: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:21: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:30: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:31: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:37: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:38: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:41: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:45: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:46: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:48: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:50: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:51: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:53: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:55: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:09:57: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:00: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:02: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:03: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:05: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:07: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:09: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:12: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:14: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:20: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:26: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:28: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:29: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:32: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:39: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:40: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:41: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:44: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:45: Uncompressed size 8397318
+
+[Info   : Unity Log] 02/14/2023 16:10:46: Compressed size 33579
+
+[Info   : Unity Log] 02/14/2023 16:10:46: Considering autobackup. World time: 5399,98, short time: 7200, long time: 43200, backup count: 4
+
+[Info   : Unity Log] 02/14/2023 16:10:46: Overwrite our newest autobackup since the second one isn't so old
+
+[Info   : Unity Log] 02/14/2023 16:10:46: Replacing backup file: C:\Users\Anon\AppData\LocalLow\IronGate\Valheim\characters_local\grom_backup_auto-20230214135952.fch
+
+[Info   : Unity Log] 02/14/2023 16:10:46: Saving backup at: C:\Users\Anon\AppData\LocalLow\IronGate\Valheim\characters_local\grom_backup_auto-20230214161046.fch
+
+[Info   : Unity Log] 02/14/2023 16:10:46: clone 803
+
+[Info   : Unity Log] 02/14/2023 16:10:47: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:51: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:52: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:53: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:54: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:55: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:10:56: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:00: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:02: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:04: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:05: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:21: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:21: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:22: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:23: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:26: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:27: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:30: Setting selected recipe 43
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 16:11:30: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 16:11:30: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 16:11:36: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:37: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:39: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:39: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:41: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:43: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:44: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:45: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:46: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:47: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:48: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:48: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:50: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:50: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:52: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:54: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:11:56: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:02: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:08: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:12: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:16: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:19: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:21: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:22: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:23: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:26: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:27: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:28: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:41: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:43: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:50: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:55: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:57: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:12:58: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:00: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:01: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:03: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:05: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:07: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:11: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:12: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:15: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:16: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:18: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:19: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:20: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:22: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:25: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:26: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:27: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:29: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:30: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:31: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:32: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:34: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:35: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:36: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:38: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:39: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:41: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:43: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:47: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:49: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:13:59: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:01: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:02: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:08: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:09: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:09: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:11: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:27: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:29: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:32: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:33: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:37: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:39: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:43: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:45: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:52: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:54: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:56: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:14:59: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:01: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:02: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:04: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:08: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:12: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:18: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:20: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:30: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:32: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:47: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:48: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:49: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:51: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:52: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:54: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:55: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:56: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:57: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:15:59: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:00: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:02: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:06: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:07: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:08: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:11: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:12: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:13: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:14: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:17: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:18: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:23: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:24: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:30: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:31: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:33: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:33: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:35: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:36: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:38: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:39: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:40: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:41: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:42: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:43: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:45: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:45: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:48: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:49: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:51: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:52: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:16:54: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:19:49: Starting music evening
+
+[Info   : Unity Log] 02/14/2023 16:19:50: Stopped music meadows at 5564237
+
+[Info   : Unity Log] 02/14/2023 16:19:53: Spawned Greydwarf_Elite x 1
+
+[Info   : Unity Log] 02/14/2023 16:23:16: Update PlayFab entity token
+
+[Info   : Unity Log] 02/14/2023 16:27:09: Spawned Greydwarf x 1
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:27:13: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying raise radius 2
+[Info   : Unity Log] HoeRadius Applying paint radius 2,5
+[Info   : Unity Log] HoeRadius Applying raise radius 2
+[Info   : Unity Log] HoeRadius Applying paint radius 2,5
+[Info   : Unity Log] 02/14/2023 16:27:17: Placed raise_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:27:20: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:27:22: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:27:29: Placed paved_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:27:33: Placed paved_road_v2
+
+[Info   : Unity Log] HoeRadius Applying raise radius 2
+[Info   : Unity Log] HoeRadius Applying paint radius 2,5
+[Info   : Unity Log] HoeRadius Applying raise radius 2
+[Info   : Unity Log] HoeRadius Applying paint radius 2,5
+[Info   : Unity Log] 02/14/2023 16:27:40: Placed raise_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:27:42: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:27:43: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:27:43: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:27:47: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:27:47: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:27:49: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:27:51: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:27:54: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:28:02: Placed paved_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:28:05: Placed paved_road_v2
+
+[Info   : Unity Log] 02/14/2023 16:28:06: Moved up item Wood(Clone)
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:28:06: Placed paved_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:28:07: Placed paved_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:28:24: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:28:27: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:28:29: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:28:35: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:28:36: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:28:40: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:28:43: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:28:50: Placed paved_road_v2
+
+[Info   : Unity Log] 02/14/2023 16:28:51: Starting music morning
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:28:58: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:29:00: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:29:00: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:29:01: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:29:02: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 16:29:05: Placed mud_road_v2
+
+[Info   : Unity Log] 02/14/2023 16:29:13: Disabling visual  item
+
+[Info   : Unity Log] 02/14/2023 16:29:13: Disabling PE_Picked  item
+
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:29:16: Placed replant_v2
+
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:29:18: Placed replant_v2
+
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:29:18: Placed replant_v2
+
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:29:19: Placed replant_v2
+
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:29:20: Placed replant_v2
+
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:29:22: Placed replant_v2
+
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:29:23: Placed replant_v2
+
+[Info   : Unity Log] 02/14/2023 16:29:24: Starting music meadows
+
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:29:25: Placed replant_v2
+
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:29:28: Placed replant_v2
+
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:29:29: Placed replant_v2
+
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 16:29:46: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:29:47: Placed stone_beam_short
+
+[Info   : Unity Log] 02/14/2023 16:29:48: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 16:29:56: Unloading unused assets
+
+[Info   : Unity Log] 02/14/2023 16:41:07: Update PlayFab entity token
+
+[Info   : Unity Log] 02/14/2023 16:53:12: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 16:53:12: Disabling model  item
+
+[Info   : Unity Log] 02/14/2023 16:53:21: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 16:53:22: Disabling ExteriorGateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 16:53:22: Disabling Bounds  Water
+
+[Info   : Unity Log] 02/14/2023 16:53:22: Disabling Gateway  character_trigger
+
+[Info   : Unity Log] 02/14/2023 16:54:24: Placed PulleyMarlin
+
+[Info   : Unity Log] 02/14/2023 16:54:29: Removing non WNT object with hammer PulleyMarlin(Clone)
+
+[Info   : Unity Log] 02/14/2023 16:54:36: Placed PulleyMarlin
+
+[Info   : Unity Log] 02/14/2023 16:54:47: Placed PulleyCobia
+
+[Info   : Unity Log] 02/14/2023 16:54:49: Player onboard, total onboard 1
+
+[Info   : Unity Log] 02/14/2023 16:54:49: Player over board, players left 0
+
+[Info   : Unity Log] 02/14/2023 16:55:01: Disabling model_shield  item
+
+[Info   : Unity Log] 02/14/2023 16:55:07: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 16:55:07: Disabling model  item
+
+[Info   : Unity Log] 02/14/2023 16:55:11: Disabling model_shield  item
+
+[Info   : Unity Log] 02/14/2023 16:55:18: Setting selected recipe 43
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 16:55:18: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 16:55:18: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 16:55:24: Disabling model_shield  item
+
+[Info   : Unity Log] 02/14/2023 16:55:42: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 16:55:42: Disabling WaterVolume  WaterVolume
+
+[Info   : Unity Log] 02/14/2023 16:55:42: Disabling WaterSurface  Water
+
+[Info   : Unity Log] 02/14/2023 16:55:57: Placed OilPress
+
+[Info   : Unity Log] 02/14/2023 16:55:57: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 16:55:57: Disabling WaterVolume  WaterVolume
+
+[Info   : Unity Log] 02/14/2023 16:55:57: Disabling WaterSurface  Water
+
+[Info   : Unity Log] 02/14/2023 16:55:57: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 16:55:57: Disabling WaterVolume  WaterVolume
+
+[Info   : Unity Log] 02/14/2023 16:55:57: Disabling WaterSurface  Water
+
+[Info   : Unity Log] 02/14/2023 16:55:57: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 16:55:57: Disabling WaterVolume  WaterVolume
+
+[Info   : Unity Log] 02/14/2023 16:55:57: Disabling WaterSurface  Water
+
+[Info   : Unity Log] 02/14/2023 16:55:58: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 16:55:58: Disabling WaterVolume  WaterVolume
+
+[Info   : Unity Log] 02/14/2023 16:55:58: Disabling WaterSurface  Water
+
+[Info   : Unity Log] 02/14/2023 16:56:04: Placed RedePesca
+
+[Info   : Unity Log] 02/14/2023 16:56:14: Placed RedePesca
+
+[Info   : Unity Log] 02/14/2023 16:57:28: Placed ShipConstruction2
+
+[Info   : Unity Log] 02/14/2023 16:57:51: Removing non WNT object with hammer ShipConstruction2(Clone)
+
+[Info   : Unity Log] 02/14/2023 16:58:01: Placed ShipConstruction1
+
+[Info   : Unity Log] 02/14/2023 16:58:21: Update PlayFab entity token
+
+[Info   : Unity Log] 02/14/2023 16:58:55: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 16:59:09: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 16:59:10: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 16:59:17: Placed guard_stone
+
+[Info   : Unity Log] 02/14/2023 16:59:19: Toggle enabled from 1572428641  creator is 1572428641
+
+[Info   : Unity Log] 02/14/2023 16:59:21: Toggle enabled from 1572428641  creator is 1572428641
+
+[Info   : Unity Log] 02/14/2023 16:59:24: Toggle enabled from 1572428641  creator is 1572428641
+
+[Info   : Unity Log] 02/14/2023 16:59:25: Toggle enabled from 1572428641  creator is 1572428641
+
+[Info   : Unity Log] 02/14/2023 16:59:27: Toggle enabled from 1572428641  creator is 1572428641
+
+[Info   : Unity Log] 02/14/2023 16:59:28: Toggle enabled from 1572428641  creator is 1572428641
+
+[Info   : Unity Log] 02/14/2023 16:59:29: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 16:59:40: Placed guard_stone
+
+[Info   : Unity Log] 02/14/2023 16:59:46: Placed guard_stone
+
+[Info   : Unity Log] 02/14/2023 17:01:05: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 17:01:10: Unloading unused assets
+
+[Info   : Unity Log] 02/14/2023 17:17:22: Skipping unloading unused assets
+
+[Info   : Unity Log] 02/14/2023 17:17:51: Update PlayFab entity token
+
+[Info   : Unity Log] 02/14/2023 17:33:31: Unloading unused assets
+
+[Info   : Unity Log] 02/14/2023 17:34:14: Update PlayFab entity token
+
+[Info   : Unity Log] 02/14/2023 17:41:14: Player 1763498541 wants to open Container   im: 1763498541
+
+[Info   : Unity Log] 02/14/2023 17:41:14: Setting selected recipe 0
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 17:41:14: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 17:41:14: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 17:41:59: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 17:42:00: Current res 1920x1080     1920x1080
+
+[Info   : Unity Log] 02/14/2023 17:42:00: UI Group status changed MenuRoot = False
+
+[Info   : Unity Log] 02/14/2023 17:42:00: FOund selected Settings
+
+[Info   : Unity Log] 02/14/2023 17:42:05: Current res 1920x1080     1920x1080
+
+[Info   : Unity Log] 02/14/2023 17:42:05: FOund selected MusicVolumeSlider
+
+[Info   : Unity Log] 02/14/2023 17:42:05: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 17:42:08: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 17:42:09: Current res 1920x1080     1920x1080
+
+[Info   : Unity Log] 02/14/2023 17:42:09: UI Group status changed MenuRoot = False
+
+[Info   : Unity Log] 02/14/2023 17:42:09: FOund selected Settings
+
+[Info   : Unity Log] 02/14/2023 17:42:13: FOund selected Ok
+
+[Info   : Unity Log] 02/14/2023 17:42:13: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 17:43:42: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 17:43:47: Stopped music meadows at 2651619
+
+[Info   : Unity Log] 02/14/2023 17:43:47: Starting music meadows
+
+[Info   : Unity Log] 02/14/2023 17:43:47: Resumed music meadows at 2651619
+
+[Info   : Unity Log] 02/14/2023 17:43:58: Skipping unloading unused assets
+
+[Info   : Unity Log] 02/14/2023 17:43:58: Uncompressed size 8397318
+
+[Info   : Unity Log] 02/14/2023 17:43:59: Compressed size 33579
+
+[Info   : Unity Log] 02/14/2023 17:43:59: Considering autobackup. World time: 7199,959, short time: 7200, long time: 43200, backup count: 4
+
+[Info   : Unity Log] 02/14/2023 17:43:59: No autobackup needed yet...
+
+[Info   : Unity Log] 02/14/2023 17:43:59: clone 781
+
+[Info   : Unity Log] 02/14/2023 17:44:18: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 17:44:25: Skipping unloading unused assets
+
+[Info   : Unity Log] 02/14/2023 17:45:57: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:46:23: Placed OH_Fish
+
+[Info   : Unity Log] 02/14/2023 17:46:32: Placed OH_Fish
+
+[Info   : Unity Log] 02/14/2023 17:46:52: Placed OH_Seedbag
+
+[Info   : Unity Log] 02/14/2023 17:47:04: Player 1763498541 wants to open OH_Seedbag(Clone)   im: 1763498541
+
+[Info   : Unity Log] 02/14/2023 17:47:04: Setting selected recipe 0
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 17:47:04: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 17:47:04: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 17:47:07: Player 1763498541 wants to open OH_Seedbag(Clone)   im: 1763498541
+
+[Info   : Unity Log] 02/14/2023 17:47:07: Setting selected recipe 0
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 17:47:07: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 17:47:07: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 17:47:08: Player 1763498541 wants to open OH_Seedbag(Clone)   im: 1763498541
+
+[Info   : Unity Log] 02/14/2023 17:47:08: Setting selected recipe 0
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 17:47:08: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 17:47:08: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 17:47:23: Disabling Container  item
+
+[Info   : Unity Log] 02/14/2023 17:47:31: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:47:33: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:47:40: Placed stone_cart
+
+[Info   : Unity Log] 02/14/2023 17:47:40: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:47:40: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:47:40: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:47:42: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:47:52: Placed workbench_cart
+
+[Info   : Unity Log] 02/14/2023 17:47:52: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:47:54: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:48:00: Placed forge_cart
+
+[Info   : Unity Log] 02/14/2023 17:48:00: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:48:00: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:48:01: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:48:02: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:48:07: Setting selected recipe 1
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 17:48:07: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 17:48:07: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 17:48:11: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:48:32: Player 1763498541 wants to open piece_chest_wood(Clone)   im: 1763498541
+
+[Info   : Unity Log] 02/14/2023 17:48:32: Setting selected recipe 0
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 17:48:32: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 17:48:32: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 17:48:35: Disabling Container  item
+
+[Info   : Unity Log] 02/14/2023 17:49:30: Placed piece_chest_wood
+
+[Info   : Unity Log] 02/14/2023 17:50:13: Setting saddle:True
+
+[Info   : Unity Log] 02/14/2023 17:50:15: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 17:50:21: Skipping unloading unused assets
+
+[Info   : Unity Log] 02/14/2023 17:50:27: Done fading color
+
+[Info   : Unity Log] 02/14/2023 17:50:27: Done fading color
+
+[Info   : Unity Log] 02/14/2023 17:50:27: Done fading color
+
+[Info   : Unity Log] 02/14/2023 17:50:27: Done fading color
+
+[Info   : Unity Log] 02/14/2023 17:50:27: Done fading color
+
+[Info   : Unity Log] 02/14/2023 17:51:02: Disabling Container  item
+
+[Info   : Unity Log] 02/14/2023 17:51:11: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:51:11: Disabling BladeAOE  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:51:21: Placed windmill
+
+[Info   : Unity Log] 02/14/2023 17:51:21: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:51:21: Disabling BladeAOE  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:51:21: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:51:21: Disabling BladeAOE  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:51:21: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:51:21: Disabling BladeAOE  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:51:32: Placed windmill
+
+[Info   : Unity Log] 02/14/2023 17:51:32: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:51:32: Disabling BladeAOE  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:51:32: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:51:32: Disabling BladeAOE  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:51:32: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:51:32: Disabling BladeAOE  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:52:27: Placed piece_chest_barrel_bal
+
+[Info   : Unity Log] 02/14/2023 17:52:45: Placed IG_Barrels_Closed_Up
+
+[Info   : Unity Log] 02/14/2023 17:53:19: Starting music evening
+
+[Info   : Unity Log] 02/14/2023 17:53:20: Stopped music meadows at 5833098
+
+[Info   : Unity Log] 02/14/2023 17:53:23: Update PlayFab entity token
+
+[Info   : Unity Log] 02/14/2023 17:54:49: Setting selected recipe 42
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 17:54:49: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 17:54:49: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 17:55:01: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:55:01: Disabling BladeAOE  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:55:03: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:55:03: Disabling BladeAOE  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:55:03: Disabling Container  item
+
+[Info   : Unity Log] 02/14/2023 17:55:16: Setting selected recipe 42
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 17:55:16: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 17:55:16: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 17:55:25: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:55:25: Disabling BladeAOE  character_trigger
+
+[Info   : Unity Log] 02/14/2023 17:55:48: Placed piece_dvergr_lantern_pole
+
+[Info   : Unity Log] 02/14/2023 17:55:58: Spawned Greydwarf_Shaman x 1
+
+[Info   : Unity Log] 02/14/2023 17:56:04: Placed piece_dvergr_lantern
+
+[Info   : Unity Log] 02/14/2023 17:56:33: Placed piece_dvergr_lantern_pole
+
+[Info   : Unity Log] 02/14/2023 17:56:46: Placed piece_dvergr_lantern_pole
+
+[Info   : Unity Log] 02/14/2023 17:56:59: Placed piece_dvergr_lantern_pole
+
+[Info   : Unity Log] 02/14/2023 17:57:02: Spawned Greydwarf x 1
+
+[Info   : Unity Log] 02/14/2023 17:57:27: Placed piece_dvergr_lantern
+
+[Info   : Unity Log] 02/14/2023 17:57:33: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 17:57:41: Starting music home
+
+[Info   : Unity Log] 02/14/2023 17:57:44: Stopped music home at 130771
+
+[Info   : Unity Log] 02/14/2023 17:57:52: Placed piece_dvergr_lantern
+
+[Info   : Unity Log] 02/14/2023 17:58:00: Starting music home
+
+[Info   : Unity Log] 02/14/2023 17:58:00: Resumed music home at 130771
+
+[Info   : Unity Log] 02/14/2023 17:58:03: Stopped music home at 135475
+
+[Info   : Unity Log] 02/14/2023 17:58:04: Placed piece_dvergr_lantern
+
+[Info   : Unity Log] 02/14/2023 17:58:19: Placed piece_dvergr_lantern_pole
+
+[Info   : Unity Log] 02/14/2023 17:58:31: Placed piece_dvergr_lantern_pole
+
+[Info   : Unity Log] 02/14/2023 17:58:44: Placed piece_dvergr_lantern_pole
+
+[Info   : Unity Log] 02/14/2023 17:58:47: Setting selected recipe 42
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 17:58:47: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 17:58:47: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 17:58:49: UI Group status changed root = False
+
+[Info   : Unity Log] 02/14/2023 17:58:49: FOund selected ButtonCanvas
+
+[Info   : Unity Log] 02/14/2023 17:58:49: UI Group status changed Player = False
+
+[Info   : Unity Log] 02/14/2023 17:58:50: Setting selected recipe 42
+
+[Info   : Unity Log] 02/14/2023 17:58:50: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 17:58:50: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 17:58:53: Setting selected recipe 42
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 17:58:53: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 17:58:53: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 17:58:55: UI Group status changed root = False
+
+[Info   : Unity Log] 02/14/2023 17:58:55: FOund selected ButtonCanvas
+
+[Info   : Unity Log] 02/14/2023 17:58:55: UI Group status changed Player = False
+
+[Info   : Unity Log] 02/14/2023 17:58:56: Setting selected recipe 42
+
+[Info   : Unity Log] 02/14/2023 17:58:56: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 17:58:56: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 17:58:57: Setting selected recipe 42
+
+[Info   : Unity Log] Can't add component 'Canvas' to gamepad_hint because such a component is already added to the game object!
+[Info   : Unity Log] 02/14/2023 17:58:57: UI Group status changed root = True
+
+[Info   : Unity Log] 02/14/2023 17:58:57: UI Group status changed Player = True
+
+[Info   : Unity Log] 02/14/2023 17:59:07: Placed piece_dvergr_lantern_pole
+
+[Info   : Unity Log] 02/14/2023 17:59:33: Placed piece_dvergr_lantern_pole
+
+[Info   : Unity Log] 02/14/2023 17:59:51: Placed piece_dvergr_lantern_pole
+
+[Info   : Unity Log] 02/14/2023 18:00:11: Spawned Greydwarf_Elite x 1
+
+[Info   : Unity Log] 02/14/2023 18:00:35: Placed piece_dvergr_lantern_pole
+
+[Info   : Unity Log] 02/14/2023 18:01:00: Placed piece_dvergr_lantern_pole
+
+[Info   : Unity Log] 02/14/2023 18:01:28: Placed piece_dvergr_lantern_pole
+
+[Info   : Unity Log] 02/14/2023 18:02:25: Starting music morning
+
+[Info   : Unity Log] 02/14/2023 18:02:49: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:02:49: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:02:49: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:02:49: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:02:59: Starting music meadows
+
+[Info   : Unity Log] 02/14/2023 18:03:05: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:03:05: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:03:05: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:03:05: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:03:18: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:03:18: Disabling model  item
+
+[Info   : Unity Log] 02/14/2023 18:03:23: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:03:23: Disabling model  item
+
+[Info   : Unity Log] 02/14/2023 18:03:30: Placed stone_floor_1_new
+
+[Info   : Unity Log] 02/14/2023 18:03:33: Placed stone_floor_1_new
+
+[Info   : Unity Log] 02/14/2023 18:03:34: Placed stone_floor_1_new
+
+[Info   : Unity Log] 02/14/2023 18:03:37: Placed stone_floor_1_new
+
+[Info   : Unity Log] 02/14/2023 18:03:39: Placed stone_floor_1_new
+
+[Info   : Unity Log] 02/14/2023 18:03:39: Placed stone_floor_1_new
+
+[Info   : Unity Log] 02/14/2023 18:03:57: Placed rae_brickstone_wall_4x2
+
+[Info   : Unity Log] 02/14/2023 18:04:00: Placed rae_brickstone_wall_4x2
+
+[Info   : Unity Log] 02/14/2023 18:04:05: Placed rae_brickstone_wall_4x2
+
+[Info   : Unity Log] 02/14/2023 18:04:08: Placed rae_brickstone_wall_4x2
+
+[Info   : Unity Log] 02/14/2023 18:04:12: Placed rae_brickstone_wall_4x2
+
+[Info   : Unity Log] 02/14/2023 18:04:14: Placed rae_brickstone_wall_4x2
+
+[Info   : Unity Log] 02/14/2023 18:04:20: Placed rae_brickstone_wall_4x2
+
+[Info   : Unity Log] 02/14/2023 18:04:24: Placed stone_floor_1_new
+
+[Info   : Unity Log] 02/14/2023 18:04:25: Placed stone_floor_1_new
+
+[Info   : Unity Log] 02/14/2023 18:04:26: Placed stone_floor_1_new
+
+[Info   : Unity Log] 02/14/2023 18:04:28: Placed stone_floor_1_new
+
+[Info   : Unity Log] 02/14/2023 18:04:29: Placed stone_floor_1_new
+
+[Info   : Unity Log] 02/14/2023 18:04:30: Placed stone_floor_1_new
+
+[Info   : Unity Log] 02/14/2023 18:04:37: Placed rae_brickstone_wall_2x1
+
+[Info   : Unity Log] 02/14/2023 18:04:39: Placed rae_brickstone_wall_2x1
+
+[Info   : Unity Log] 02/14/2023 18:04:49: Placed rae_brickstone_wall_4x2
+
+[Info   : Unity Log] 02/14/2023 18:04:57: Placed rae_brickstone_wall_2x1
+
+[Info   : Unity Log] 02/14/2023 18:04:59: Placed rae_brickstone_wall_2x1
+
+[Info   : Unity Log] 02/14/2023 18:05:01: Placed rae_brickstone_wall_2x1
+
+[Info   : Unity Log] 02/14/2023 18:05:05: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:05: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:05: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:05: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:20: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:20: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:20: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:20: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:20: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:20: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:20: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:20: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:20: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:24: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:24: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:24: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:24: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:24: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:24: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:24: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:24: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:26: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:26: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:26: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:26: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:26: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:26: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:26: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:26: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:26: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:30: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:30: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:30: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:30: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:30: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:31: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:31: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:31: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:31: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:31: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:33: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:33: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:35: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:35: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:35: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:35: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:36: Placed rae_woodwall_2_half
+
+[Info   : Unity Log] 02/14/2023 18:05:36: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:36: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:36: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:36: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:38: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:38: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:38: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:38: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:41: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:41: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:41: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:41: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:41: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:42: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:42: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:42: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:42: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:42: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:43: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:43: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:43: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:43: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:43: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:44: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:44: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:44: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:44: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:44: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:46: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:46: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:46: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:46: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:46: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:47: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:47: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:47: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:47: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:47: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:48: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:48: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:48: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:48: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:48: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:49: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:50: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:52: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:53: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:54: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:57: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:05:59: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:05:59: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:59: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:05:59: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:06:03: Placed rae_woodwall_2_half
+
+[Info   : Unity Log] 02/14/2023 18:06:16: Placed wooden_window_small
+
+[Info   : Unity Log] 02/14/2023 18:06:32: Placed wooden_window_small
+
+[Info   : Unity Log] 02/14/2023 18:06:34: Placed wooden_window_small
+
+[Info   : Unity Log] 02/14/2023 18:06:46: Placed ig_tall_stairs
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:02: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:02: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:03: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:03: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:04: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:04: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:05: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:05: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:06: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:06: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:07: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:07: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:08: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:08: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:09: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:09: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:12: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:12: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:13: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:13: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:13: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:14: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:16: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:18: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:22: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:25: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:25: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:25: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:26: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:26: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:27: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:28: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:29: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:30: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:30: Placed mud_road_v2
+
+[Info   : Unity Log] HoeRadius Applying smooth radius 3
+[Info   : Unity Log] HoeRadius Applying paint radius 3
+[Info   : Unity Log] 02/14/2023 18:07:30: Placed mud_road_v2
+
+[Info   : Unity Log] 02/14/2023 18:07:43: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:07:43: Disabling BladeAOE  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:07:45: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:07:45: Disabling BladeAOE  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:07:49: Placed wood_wall_half
+
+[Info   : Unity Log] 02/14/2023 18:07:50: Placed wood_wall_half
+
+[Info   : Unity Log] 02/14/2023 18:07:51: Placed wood_wall_half
+
+[Info   : Unity Log] 02/14/2023 18:08:25: Placed darkwood_roof
+
+[Info   : Unity Log] 02/14/2023 18:08:26: Placed darkwood_roof
+
+[Info   : Unity Log] 02/14/2023 18:08:28: Placed darkwood_roof
+
+[Info   : Unity Log] 02/14/2023 18:08:31: Placed darkwood_roof
+
+[Info   : Unity Log] 02/14/2023 18:08:32: Placed darkwood_roof
+
+[Info   : Unity Log] 02/14/2023 18:08:34: Placed darkwood_roof
+
+[Info   : Unity Log] 02/14/2023 18:08:35: Placed darkwood_roof
+
+[Info   : Unity Log] 02/14/2023 18:08:39: Placed darkwood_roof
+
+[Info   : Unity Log] 02/14/2023 18:08:41: Placed darkwood_roof
+
+[Info   : Unity Log] 02/14/2023 18:08:48: Placed darkwood_roof
+
+[Info   : Unity Log] 02/14/2023 18:09:21: Placed darkwood_roof_ocorner
+
+[Info   : Unity Log] 02/14/2023 18:09:27: Placed darkwood_roof_ocorner
+
+[Info   : Unity Log] 02/14/2023 18:09:32: Update PlayFab entity token
+
+[Info   : Unity Log] 02/14/2023 18:09:33: Placed darkwood_roof_ocorner
+
+[Info   : Unity Log] 02/14/2023 18:09:38: Placed darkwood_roof_ocorner
+
+[Info   : Unity Log] 02/14/2023 18:09:54: Placed darkwood_roof
+
+[Info   : Unity Log] 02/14/2023 18:09:58: Placed darkwood_roof
+
+[Info   : Unity Log] 02/14/2023 18:10:00: Placed darkwood_roof
+
+[Info   : Unity Log] 02/14/2023 18:10:14: Placed darkwood_roof_ocorner_45
+
+[Info   : Unity Log] 02/14/2023 18:10:19: Placed darkwood_roof_ocorner_45
+
+[Info   : Unity Log] 02/14/2023 18:10:23: Placed darkwood_roof_ocorner_45
+
+[Info   : Unity Log] 02/14/2023 18:10:29: Placed darkwood_roof_ocorner_45
+
+[Info   : Unity Log] 02/14/2023 18:10:37: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:10:41: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:10:51: Setting saddle:True
+
+[Info   : Unity Log] 02/14/2023 18:11:14: Placed IG_Big_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:11:16: Placed IG_Big_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:11:19: Placed IG_Big_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:11:21: Placed IG_Big_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:11:30: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:11:30: Disabling model  item
+
+[Info   : Unity Log] 02/14/2023 18:11:50: Placed IG_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:11:51: Placed IG_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:11:53: Placed IG_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:11:55: Placed IG_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:12:22: Placed IG_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:12:27: Placed IG_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:12:29: Placed IG_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:12:31: Placed IG_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:12:32: Placed IG_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:12:33: Placed IG_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:12:34: Placed IG_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:12:35: Placed IG_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:12:37: Placed IG_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:12:38: Placed IG_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:12:54: Placed stone_floor_1_new
+
+[Info   : Unity Log] 02/14/2023 18:12:57: Placed stone_floor_1_new
+
+[Info   : Unity Log] 02/14/2023 18:13:22: Placed IG_Big_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:13:23: Placed IG_Big_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:13:25: Placed IG_Big_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:13:27: Placed IG_Big_Chevron_Floor
+
+[Info   : Unity Log] 02/14/2023 18:13:48: Placed piece_woodgate_darkwood
+
+[Info   : Unity Log] 02/14/2023 18:14:20: Uncompressed size 8397318
+
+[Info   : Unity Log] 02/14/2023 18:14:20: Compressed size 33579
+
+[Info   : Unity Log] 02/14/2023 18:14:20: Considering autobackup. World time: 8999,98, short time: 7200, long time: 43200, backup count: 4
+
+[Info   : Unity Log] 02/14/2023 18:14:20: Overwrite our newest autobackup since the second one isn't so old
+
+[Info   : Unity Log] 02/14/2023 18:14:20: Replacing backup file: C:\Users\Anon\AppData\LocalLow\IronGate\Valheim\characters_local\grom_backup_auto-20230214161046.fch
+
+[Info   : Unity Log] 02/14/2023 18:14:20: Saving backup at: C:\Users\Anon\AppData\LocalLow\IronGate\Valheim\characters_local\grom_backup_auto-20230214181420.fch
+
+[Info   : Unity Log] 02/14/2023 18:14:21: clone 942
+
+[Info   : Unity Log] 02/14/2023 18:14:27: Placed piece_woodgate_darkwood
+
+[Info   : Unity Log] 02/14/2023 18:14:45: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:15:17: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:15:17: Disabling model  item
+
+[Info   : Unity Log] 02/14/2023 18:15:18: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:15:18: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:15:18: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:15:18: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:15:20: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:15:20: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:15:20: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:15:20: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:15:20: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:15:20: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:15:20: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:15:20: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:15:20: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:15:33: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:15:33: Disabling model  item
+
+[Info   : Unity Log] 02/14/2023 18:15:33: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:15:33: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:15:33: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:15:33: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:15:34: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:15:34: Disabling model  item
+
+[Info   : Unity Log] 02/14/2023 18:15:38: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:15:39: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:15:41: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:15:42: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:15:45: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:15:49: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:15:50: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:15:51: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:15:52: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:15:54: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:15:59: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:16:01: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:16:02: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:16:03: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:16:10: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:16:13: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:16:15: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:16:17: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:16:19: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:16:26: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:16:26: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:16:30: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:16:31: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:16:33: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:16:35: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:16:37: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:16:40: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:16:41: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:16:43: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:16:44: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:16:48: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:16:51: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:16:53: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:16:55: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:16:56: Placed wood_beam_1
+
+[Info   : Unity Log] 02/14/2023 18:17:01: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:17:02: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:17:03: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:17:05: Placed wood_beam
+
+[Info   : Unity Log] 02/14/2023 18:17:18: Placed darkwood_roof_ocorner_45
+
+[Info   : Unity Log] 02/14/2023 18:17:23: Placed darkwood_roof_ocorner_45
+
+[Info   : Unity Log] 02/14/2023 18:17:27: Placed darkwood_roof_ocorner_45
+
+[Info   : Unity Log] 02/14/2023 18:17:30: Placed darkwood_roof_ocorner_45
+
+[Info   : Unity Log] 02/14/2023 18:17:34: Placed darkwood_roof_ocorner_45
+
+[Info   : Unity Log] 02/14/2023 18:17:38: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:17:39: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:17:40: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:17:44: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:17:48: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:17:49: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:17:50: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:17:52: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:17:53: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:17:54: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:17:58: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:17:59: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:18:00: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:18:03: Placed darkwood_roof_45
+
+[Info   : Unity Log] 02/14/2023 18:18:16: Placed wood_floor
+
+[Info   : Unity Log] 02/14/2023 18:18:18: Placed wood_floor
+
+[Info   : Unity Log] 02/14/2023 18:18:19: Placed wood_floor
+
+[Info   : Unity Log] 02/14/2023 18:18:28: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:18:28: Disabling model  item
+
+[Info   : Unity Log] 02/14/2023 18:18:31: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:18:31: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:18:31: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:18:31: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:18:53: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:18:53: Disabling model  item
+
+[Info   : Unity Log] 02/14/2023 18:18:55: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:18:55: Disabling BladeAOE  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:19:02: Placed wood_floor
+
+[Info   : Unity Log] 02/14/2023 18:19:03: Placed wood_floor
+
+[Info   : Unity Log] 02/14/2023 18:19:04: Placed wood_floor
+
+[Info   : Unity Log] 02/14/2023 18:19:05: Placed wood_floor
+
+[Info   : Unity Log] 02/14/2023 18:19:06: Placed wood_floor
+
+[Info   : Unity Log] 02/14/2023 18:19:07: Placed wood_floor
+
+[Info   : Unity Log] 02/14/2023 18:19:08: Placed wood_floor
+
+[Info   : Unity Log] 02/14/2023 18:19:10: Placed wood_floor
+
+[Info   : Unity Log] 02/14/2023 18:19:16: Placed wood_floor
+
+[Info   : Unity Log] 02/14/2023 18:19:17: Placed wood_floor
+
+[Info   : Unity Log] 02/14/2023 18:19:19: Placed wood_floor
+
+[Info   : Unity Log] 02/14/2023 18:19:22: Placed wood_floor
+
+[Info   : Unity Log] HoeRadius Applying paint radius 2,2
+[Info   : Unity Log] 02/14/2023 18:20:17: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:20:17: Disabling model  item
+
+[Info   : Unity Log] 02/14/2023 18:20:20: Disabling PlayerBase  character_trigger
+
+[Info   : Unity Log] 02/14/2023 18:20:20: Disabling model  item
+
+[Info   : Unity Log] 02/14/2023 18:20:27: Placed rae_brickstone_wall_2x1
+
+[Info   : Unity Log] 02/14/2023 18:20:35: Placed rae_brickstone_wall_1x1
+
+[Info   : Unity Log] 02/14/2023 18:20:40: Placed piece_woodgate_darkwood
+
+[Info   : Unity Log] 02/14/2023 18:20:45: Placed rae_brickstone_wall_1x1
+
+[Info   : Unity Log] 02/14/2023 18:20:50: Placed rae_brickstone_wall_1x1
+
+[Info   : Unity Log] 02/14/2023 18:21:00: Placed rae_brickstone_wall_1x1
+
+[Info   : Unity Log] 02/14/2023 18:21:09: Placed rae_brickstone_wall_1x1
+
+[Info   : Unity Log] 02/14/2023 18:21:17: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:21:17: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:17: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:17: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:18: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:21:18: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:18: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:18: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:21: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:21:21: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:21:21: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:21: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:21: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:21: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:21:21: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:21: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:21: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:21: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:21:21: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:21: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:21: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:23: Placed rae_woodwall_2
+
+[Info   : Unity Log] 02/14/2023 18:21:23: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:21:23: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:23: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:23: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:23: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:21:23: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:23: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:23: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:23: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:21:23: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:23: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:23: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:25: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:21:25: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:25: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:25: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:27: Placed rae_woodwall_2_half
+
+[Info   : Unity Log] 02/14/2023 18:21:27: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:21:27: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:27: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:27: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:27: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:21:27: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:27: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:27: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:27: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:21:27: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:27: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:27: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:35: Disabling attach  item
+
+[Info   : Unity Log] 02/14/2023 18:21:35: Disabling attach (1)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:35: Disabling attach (2)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:35: Disabling attach (3)  item
+
+[Info   : Unity Log] 02/14/2023 18:21:40: Placed wooden_window_small
+
+[Info   : Unity Log] 02/14/2023 18:21:53: Placed wood_wall_log_4x0.5
+
+[Info   : Unity Log] 02/14/2023 18:21:57: Placed wood_wall_log_4x0.5
+
+[Info   : Unity Log] 02/14/2023 18:22:01: Placed wood_wall_log
+
+[Info   : Unity Log] 02/14/2023 18:22:08: Placed wood_wall_log_4x0.5
+
+[Info   : Unity Log] 02/14/2023 18:22:16: Placed wood_wall_log_4x0.5
+
+[Info   : Unity Log] 02/14/2023 18:22:18: Placed wood_wall_log_4x0.5
+
+[Info   : Unity Log] 02/14/2023 18:22:25: Placed wood_wall_log_4x0.5
+
+[Info   : Unity Log] 02/14/2023 18:22:29: Placed wood_wall_log_4x0.5
+
+[Info   : Unity Log] 02/14/2023 18:22:31: Placed wood_wall_log_4x0.5
+
+[Info   : Unity Log] 02/14/2023 18:22:36: Placed wood_wall_log
+
+[Info   : Unity Log] 02/14/2023 18:22:40: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 18:22:42: UI Group status changed MenuRoot = True
+
+[Info   : Unity Log] 02/14/2023 18:22:43: UI Group status changed MenuRoot = False
+
+[Info   : Unity Log] 02/14/2023 18:22:44: Game - OnApplicationQuit
+
+[Info   : Unity Log] 02/14/2023 18:22:44: Shuting down
+
+[Info   : Unity Log] 02/14/2023 18:22:44: Uncompressed size 8397318
+
+[Info   : Unity Log] 02/14/2023 18:22:44: Compressed size 33579
+
+[Info   : Unity Log] 02/14/2023 18:22:44: Considering autobackup. World time: 9500,601, short time: 7200, long time: 43200, backup count: 4
+
+[Info   : Unity Log] 02/14/2023 18:22:44: No autobackup needed yet...
+
+[Info   : Unity Log] 02/14/2023 18:22:44: ZNet Shutdown
+
+[Info   : Unity Log] 02/14/2023 18:22:45: clone 807
+
+[Info   : Unity Log] 02/14/2023 18:22:48: Unloading unused assets
+
+[Info   : Unity Log] 02/14/2023 18:22:48: Sending disconnect msg
+
+[Info   : Unity Log] 02/14/2023 18:22:52: FOund selected Button_yes
+
+[Info   : Unity Log] 02/14/2023 18:22:52: ZNet OnDestroy
+
+[Info   : Unity Log] 02/14/2023 18:22:52: Net scene destroyed
+
+[Info   : Unity Log] 02/14/2023 18:22:53: Steam manager on destroy
+

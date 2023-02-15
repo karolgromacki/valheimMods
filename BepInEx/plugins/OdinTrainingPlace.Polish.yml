@@ -1,0 +1,38 @@
+# Items
+## Item names and descriptions
+
+Odin_Vitamin: "Witaminy Odyna"
+Odin_Vitamin_desc: "Unikalna formuła która pomoże Ci zdobywać większą ilość doświadczenia przez parę minut (+150% do zdobywania doświadczenia dla wszystkich umiejętności) oraz zwiększy regenerację Twojej kondycji, ale w zamian nie będziesz zadawał żadnych obrażeń. Nadaje się idalnie do miejsca ćwiczeń."
+
+Odin_Vitamin_Run: "Witaminy Odyna - bieganie"
+Odin_Vitamin_Run_desc: "Unikalna formuła która pomoże Ci zdobywać większą ilość doświadczenia przez parę minut (+500% do doświadczenia za bieganie) oraz zwiększy regenerację Twojej kondycji, ale w zamian nie będziesz zadawał żadnych obrażeń. Nadaje się idalnie do miejsca ćwiczeń."
+
+Odin_Vitamin_Sneak: "Witaminy Odyna - skradanie się"
+Odin_Vitamin_Sneak_desc: "Unikalna formuła która pomoże Ci zdobywać większą ilość doświadczenia przez parę minut (+500% do doświadczenia za skradanie się) oraz zwiększy regenerację Twojej kondycji, ale w zamian nie będziesz zadawał żadnych obrażeń. Nadaje się idalnie do miejsca ćwiczeń."
+
+Odin_Vitamin_Swim: "Witaminy Odyna - pływanie"
+Odin_Vitamin_Swim_desc: "Unikalna formuła która pomoże Ci zdobywać większą ilość doświadczenia przez parę minut (+500% do doświadczenia za pływanie) oraz zwiększy regenerację Twojej kondycji, ale w zamian nie będziesz zadawał żadnych obrażeń. Nadaje się idalnie do miejsca ćwiczeń."
+
+# Pieces
+## Buildable components
+
+Unnatural_Flint_Rock: "Twardy Kamień z Krzemienia"
+Unnatural_Flint_Rock_desc: "Ćwicz umiejętności związane z kilofem."
+
+Running_Track: "Prastara Bieżnia"
+Running_Track_desc: "Ćwicz umiejętności biegania i skradania się."
+
+Swimming_Pool: "Basen"
+Swimming_Pool_desc: "Ćwicz umiejętności pływania."
+
+Archery_Target: "Cel Strzelecki"
+Archery_Target_desc: "Ćwicz umiejętności łucznictwa."
+
+Wooden_Dummy: "Drewniana Kukła"
+Wooden_Dummy_desc: "Ćwicz umiejętności broni."
+
+Mechanical_Dummy: "Mechaniczna Kukła"
+Mechanical_Dummy_desc: "Ćwicz umiejętności blokowania (naostrz miecze, wsadź węgiel)."
+
+Hard_Wooden_Pole: "Drewniany Pal"
+Hard_Wooden_Pole_desc: "Ćwicz umiejętności rąbania."
